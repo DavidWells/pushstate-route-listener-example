@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import PageOne from './pages/PageOne'
 import PageTwo from './pages/PageTwo'
 import PageThree from './pages/PageThree'
+import PageFour from './pages/PageFour'
 import onRouteChanges from './onRouteChange'
 import { Router } from "@reach/router"
 import './index.css'
@@ -18,6 +19,7 @@ const App = (
     <PageOne path="/one" />
     <PageTwo path="/two" />
     <PageThree path="/three" />
+    <PageFour path="/four" />
   </Router>
 )
 
